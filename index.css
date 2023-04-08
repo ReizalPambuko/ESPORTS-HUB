@@ -80,10 +80,6 @@ button {
   line-height: 120%;
 }
 
-.mini-content {
-  margin-top: 130px;
-}
-
 .mini-content h3 {
   font-weight: bold;
 }
@@ -246,9 +242,6 @@ form h5 {
 }
 
 /* Vip */
-.contents {
-  margin-top: 130px;
-}
 
 .contents h3 {
   font-weight: bold;
