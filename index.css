@@ -450,3 +450,130 @@ i {
     margin-top: 5px;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  img {
+    width: 100%;
+  }
+  .hiro-text {
+    padding: 1rem;
+    width: 100%;
+    /* left: 220px; */
+    left: 0rem;
+    font-size: 30px;
+  }
+
+  .hiro-text2 {
+    padding: 1rem;
+    width: 100%;
+    height: 48px;
+    /* left: 55px;
+    top: 330px; */
+    top: 20rem;
+    left: 0rem;
+  }
+
+  .dt {
+    width: 100%;
+  }
+
+  .form-select {
+    width: 40%;
+  }
+
+  .mini-content,
+  .contents {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .footer-sc {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .all-link {
+    margin: 30px 0;
+  }
+
+  .all-link a {
+    margin: 0 5px;
+  }
+
+  .emails {
+    width: 100%;
+    height: 44px;
+    border: 1px solid #fff;
+    background: transparent;
+    padding: 10px;
+  }
+  .ev-bg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .event-date {
+    width: 100%;
+    border-radius: 0px;
+    margin-right: 0;
+  }
+
+  .social {
+    margin-top: 100px;
+  }
+
+  .footer-sc img {
+    width: 50%;
+  }
+
+  .nav-img {
+    width: 100%;
+  }
+
+  .booking-form {
+    margin-top: 20px;
+  }
+
+  .num-input input {
+    margin-right: 0;
+  }
+
+  .time {
+    margin-right: 5px;
+    margin-top: 5px;
+  }
+
+  .hiro {
+    width: 100%;
+  }
+
+  .phone-input input {
+    padding: 1rem;
+    width: 312px;
+    height: 44px;
+    border: none;
+    outline: none;
+    border: 1px solid #ffffff;
+    background: transparent;
+  }
+
+  .num-input input {
+    margin-right: 221px;
+    height: 44px;
+    width: 149px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    background: transparent;
+  }
+
+  .booking-form input {
+    padding: 1rem;
+    width: 100%;
+    height: 44px;
+    border: none;
+    outline: none;
+    border: 1px solid #ffffff;
+    background: transparent;
+    margin-right: 221px;
+  }
+}
