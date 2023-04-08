@@ -428,7 +428,7 @@ i {
   }
 
   .nav-img {
-    width: 90%;
+    width: 100%;
   }
 
   .booking-form {
@@ -443,5 +443,10 @@ i {
 
   .num-input input {
     margin-right: 0;
+  }
+
+  .time {
+    margin-right: 5px;
+    margin-top: 5px;
   }
 }
