@@ -351,13 +351,20 @@ i {
   }
 
   .hiro-text2 {
-    padding: 1rem;
+    color: white;
+    position: absolute;
     width: 100%;
-    height: 48px;
-    /* left: 55px;
-    top: 330px; */
-    top: 20rem;
-    left: 0rem;
+    height: 58px;
+    left: 15px;
+    top: 322px;
+
+    /* Heading 2 */
+
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 120%;
   }
 
   .event-date {
@@ -391,10 +398,6 @@ i {
 
   .all-link {
     margin: 30px 0;
-  }
-
-  .all-link a {
-    margin: 0 5px;
   }
 
   .booking-flex {
@@ -431,6 +434,10 @@ i {
     width: 100%;
   }
 
+  .all-link {
+    text-align: center;
+  }
+
   .booking-form {
     margin-top: 20px;
   }
@@ -460,7 +467,7 @@ i {
     width: 100%;
     /* left: 220px; */
     left: 0rem;
-    font-size: 30px;
+    font-size: 40px;
   }
 
   .hiro-text2 {
@@ -470,7 +477,7 @@ i {
     /* left: 55px;
     top: 330px; */
     top: 20rem;
-    left: 0rem;
+    left: 0;
   }
 
   .dt {
@@ -478,7 +485,7 @@ i {
   }
 
   .form-select {
-    width: 40%;
+    width: 20%;
   }
 
   .mini-content,
@@ -489,15 +496,14 @@ i {
 
   .footer-sc {
     flex-direction: column;
-    padding: 1rem;
   }
 
   .all-link {
-    margin: 30px 0;
+    margin: 50px 0;
   }
 
   .all-link a {
-    margin: 0 5px;
+    margin: 0 20px;
   }
 
   .emails {
@@ -523,7 +529,7 @@ i {
   }
 
   .footer-sc img {
-    width: 50%;
+    width: 40%;
   }
 
   .nav-img {
@@ -532,6 +538,7 @@ i {
 
   .booking-form {
     margin-top: 20px;
+    margin-right: 10px;
   }
 
   .num-input input {
@@ -558,7 +565,6 @@ i {
   }
 
   .num-input input {
-    margin-right: 221px;
     height: 44px;
     width: 149px;
     padding: 10px;
@@ -574,6 +580,13 @@ i {
     outline: none;
     border: 1px solid #ffffff;
     background: transparent;
-    margin-right: 221px;
+  }
+
+  bi {
+    margin: 20px 20px;
+  }
+
+  .mini-btn {
+    margin-top: 20px;
   }
 }
