@@ -66,11 +66,8 @@ button {
 .hiro-text2 {
   color: white;
   position: absolute;
-  width: 606px;
-  height: 58px;
-  left: 1115px;
-  top: 322px;
-
+  right: 100px;
+  top: 300px;
   /* Heading 2 */
 
   font-family: "Open Sans";
