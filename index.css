@@ -15,6 +15,9 @@ body {
 }
 
 /* Navbar */
+.menus {
+  margin-left: -6rem;
+}
 .flexs {
   display: flex;
   justify-content: space-between;
@@ -83,7 +86,7 @@ button {
 .mini-btn {
   height: 41px;
   width: 136px;
-  background-image: url(./image/btn.png);
+  background-image: url(./image/Buttons.png);
   background-repeat: no-repeat;
   background-size: cover;
   outline: none;
@@ -94,6 +97,7 @@ button {
   text-transform: uppercase;
   margin-top: 52px;
   transition: all 0.3s;
+  background-color: transparent;
 }
 
 /* Event */
@@ -320,8 +324,11 @@ i {
   margin-top: 300px;
 }
 
-.hr {
-  margin: 57px 0;
+.br {
+  background-image: url(./image/Vectors.png);
+  height: 2px;
+  width: 95%;
+  margin: 57px auto;
 }
 @media screen and (max-width: 600px) {
   img {

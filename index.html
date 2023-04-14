@@ -47,7 +47,7 @@
             class="dropdown-toggle"
             data-bs-toggle="dropdown"
           ></i>
-          <ul class="dropdown-menu bg-black">
+          <ul class="dropdown-menu bg-black menus">
             <li>
               <a class="dropdown-item-text text-light" href="#">BOOKING</a>
             </li>
@@ -85,9 +85,53 @@
     <!-- Mini Area-->
     <div class="mini py-5">
       <div class="container container-xxl">
-        <div class="row d-flex items-center">
+        <div class="row d-flex align-items-center">
           <div class="col-md-6 col-sm-12">
-            <img src="./image/mini.png" alt="" />
+            <div
+              id="carouselExampleRide"
+              class="carousel slide"
+              data-bs-ride="true"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./image/mini.png" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./image/cafe.png" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./image/stream.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleRide"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleRide"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
           <div class="col-md-6 col-sm-12 mini-content">
             <h3 class="mb-3">Esport Mini Arena</h3>
@@ -273,12 +317,12 @@
       </div>
     </div>
     <!-- End Event -->
-
+    <div class="br"></div>
     <!-- VIP -->
     <div class="vip py-5">
-      <div class="container-md">
-        <div class="row">
-          <div class="col-md-6 contents col-sm-12">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-6 col-sm-12 mini-content">
             <h3 class="mb-3">VIP Room</h3>
             <p>
               VIP Room menawarkan pengalaman bermain game dengan perlengkapan
@@ -291,21 +335,101 @@
             <button class="mini-btn">Booking</button>
           </div>
           <div class="col-md-6 col-sm-12">
-            <img src="./image/vip.png" alt="" />
+            <div
+              id="carouselExampleAutoplaying"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./image/vip.png" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./image/mini.png" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./image/cafe.png" class="d-block w-100" alt="..." />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
     </div>
     <!-- End VIP-->
-
+    <div class="br"></div>
     <!-- Stremer Room-->
     <div class="stremer py-5">
       <div class="container">
-        <div class="row">
+        <div class="row d-flex align-items-center">
           <div class="col-md-6 col-sm-12">
-            <img src="./image/stream.png" alt="" />
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="./image/stream.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img src="./image/cafe.png" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./image/mini.png" class="d-block w-100" alt="..." />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExample"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExample"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
-          <div class="col-md-6 col-sm-12 contents">
+          <div class="col-md-6 col-sm-12 mini-content">
             <h3 class="mb-3">Streamer Room</h3>
             <p>
               Streamers Room adalah ruangan khusus untuk aktivitas live
@@ -321,13 +445,13 @@
       </div>
     </div>
     <!-- End Stremer Room-->
-
+    <div class="br"></div>
     <!-- Cyber Cafe -->
 
     <div class="cafe py-5">
       <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-sm-12 contents">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-6 col-sm-12 mini-content">
             <h3 class="mb-3">Cyber Cafe</h3>
             <p>
               Cyber Cafe atau yang dahulu dikenal dengan istilah “warnet” adalah
@@ -341,25 +465,108 @@
             <button class="mini-btn">Booking</button>
           </div>
           <div class="col-md-6 col-sm-12">
-            <img src="./image/cafe.png" alt="" />
+            <div
+              id="carouselExampleControlsNoTouching"
+              class="carousel slide"
+              data-bs-touch="false"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./image/cafe.png" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./image/res.png" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./image/mini.png" class="d-block w-100" alt="..." />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleControlsNoTouching"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleControlsNoTouching"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
     <!-- End Cyber Cafe -->
-
+    <div class="br"></div>
     <!-- Restaurant -->
 
-    <div class="restaurant py-5">
-      <div class="container">
-        <div class="row">
+    <div class="mini py-5">
+      <div class="container container-xxl">
+        <div class="row d-flex align-items-center">
           <div class="col-md-6 col-sm-12">
-            <img src="./image/res.png" alt="" />
+            <div
+              id="carouselExampleInterval"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="./image/res.png" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img
+                    src="./image/stream.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img src="./image/cafe.png" class="d-block w-100" alt="..." />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
-          <div class="col-md-6 col-sm-12 contents">
+          <div class="col-md-6 col-sm-12 mini-content">
             <h3 class="mb-3">Restaurant</h3>
-
             <p>
               Restaurant Esports Hub Indonesia menawarkan berbagai opsi makanan
               yang dinikmati masyarakat, Memiliki kapasitas mencapai 150 pax
@@ -368,7 +575,7 @@
               melayani pengunjung Esports Hub Indonesia, pengunjung M-ten, serta
               para pekerja kantor di M-ten dan Gedung Cyber 1.
             </p>
-            <button class="mini-btn">Booking</button>
+            <button class="mini-btn">BOOKING</button>
           </div>
         </div>
       </div>
